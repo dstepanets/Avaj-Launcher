@@ -17,7 +17,7 @@ public class Simulator {
 
 	public static void main(String[] args) {
 
-		if (args.length > 1) {
+		if (args.length != 1) {
 			System.err.println("ERROR: Provide a file path as a single argument");
 			System.exit(1);
 		}
@@ -34,8 +34,6 @@ public class Simulator {
 
 			}
 
-		} catch (IndexOutOfBoundsException e) {
-			System.err.println("ERROR: Provide a file path as a single argument");
 		} catch (FileNotFoundException e) {
 			System.err.println("ERROR: I can't find such file, darling :(");
 		} catch (IOException e) {
