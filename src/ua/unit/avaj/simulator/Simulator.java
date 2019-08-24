@@ -17,6 +17,11 @@ public class Simulator {
 
 	public static void main(String[] args) {
 
+		if (args.length > 1) {
+			System.err.println("ERROR: Provide a file path as a single argument");
+			System.exit(1);
+		}
+
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(args[0]));
 			String ln = reader.readLine();
@@ -30,11 +35,11 @@ public class Simulator {
 			}
 
 		} catch (IndexOutOfBoundsException e) {
-			System.out.println("ERROR: Provide a file path as a single argument");
+			System.err.println("ERROR: Provide a file path as a single argument");
 		} catch (FileNotFoundException e) {
-			System.out.println("ERROR: I can't find such file, darling :(");
+			System.err.println("ERROR: I can't find such file, darling :(");
 		} catch (IOException e) {
-			System.out.println("ERROR: File reading failed");
+			System.err.println("ERROR: File reading failed");
 		} finally {
 			System.out.println("<placeholder for finally in main>");
 		}
