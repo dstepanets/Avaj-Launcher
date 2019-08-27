@@ -1,6 +1,7 @@
 package ua.unit.avaj.simulator;
 
 import ua.unit.avaj.simulator.aircrafts.Flyable;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 
