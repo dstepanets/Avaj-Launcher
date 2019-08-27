@@ -17,6 +17,7 @@ public class Aircraft implements Flyable {
 
 	private long nextId() {
 
+
 	}
 
 	public void updateConditions() {
