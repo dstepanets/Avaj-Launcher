@@ -9,6 +9,7 @@ public class JetPlane extends Aircraft {
 
 	JetPlane(String name, Coordinates coordinates) {
 		super(name, coordinates);
+		this.type = "JetPlane";
 	}
 
 	@Override

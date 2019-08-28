@@ -9,6 +9,7 @@ public class Helicopter extends Aircraft {
 
 	Helicopter(String name, Coordinates coordinates) {
 		super(name, coordinates);
+		this.type = "Helicopter";
 	}
 
 	@Override

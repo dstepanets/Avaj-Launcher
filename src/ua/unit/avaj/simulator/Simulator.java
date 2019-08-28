@@ -18,7 +18,7 @@ public class Simulator {
 	public static void main(String[] args) {
 
 		if (args.length != 1) {
-			System.err.println("ERROR: Provide a file path as a single argument");
+			System.out.println("ERROR: Provide a file path as a single argument");
 			System.exit(1);
 		}
 
@@ -35,9 +35,9 @@ public class Simulator {
 			}
 
 		} catch (FileNotFoundException e) {
-			System.err.println("ERROR: I can't find such file, darling :(");
+			System.out.println("ERROR: I can't find such file, darling :(");
 		} catch (IOException e) {
-			System.err.println("ERROR: File reading failed");
+			System.out.println("ERROR: File reading failed");
 		} finally {
 			System.out.println("<placeholder for finally in main>");
 		}

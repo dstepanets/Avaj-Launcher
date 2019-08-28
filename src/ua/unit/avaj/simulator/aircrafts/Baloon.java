@@ -9,6 +9,7 @@ public class Baloon extends Aircraft {
 
 	Baloon(String name, Coordinates coordinates) {
 		super(name, coordinates);
+		this.type = "Baloon";
 	}
 
 	@Override
