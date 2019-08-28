@@ -1,10 +1,11 @@
 package ua.unit.avaj.simulator;
 
 import ua.unit.avaj.simulator.aircrafts.Flyable;
+import java.util.List;
 import java.util.ArrayList;
 
 public class Tower {
-	private ArrayList<Flyable> observers;
+	private List<Flyable> observers = new ArrayList<Flyable>();
 
 	public void register(Flyable flyable) {
 
