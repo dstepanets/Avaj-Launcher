@@ -1,7 +1,6 @@
-package ua.unit.avaj.simulator;
+package ua.unit.avaj;
 
-import ua.unit.avaj.weather.Coordinates;
-import ua.unit.avaj.weather.WeatherProvider;
+import ua.unit.avaj.aircrafts.Coordinates;
 
 public class WeatherTower extends Tower {
 

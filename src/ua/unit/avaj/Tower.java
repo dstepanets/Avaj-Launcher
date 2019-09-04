@@ -1,6 +1,7 @@
-package ua.unit.avaj.simulator;
+package ua.unit.avaj;
 
-import ua.unit.avaj.simulator.aircrafts.Flyable;
+import ua.unit.avaj.aircrafts.Flyable;
+
 import java.util.List;
 import java.util.ArrayList;
 

@@ -1,7 +1,6 @@
-package ua.unit.avaj.simulator.aircrafts;
+package ua.unit.avaj.aircrafts;
 
-import ua.unit.avaj.simulator.WeatherTower;
-import ua.unit.avaj.weather.Coordinates;
+import ua.unit.avaj.WeatherTower;
 
 public class Baloon extends Aircraft {
 

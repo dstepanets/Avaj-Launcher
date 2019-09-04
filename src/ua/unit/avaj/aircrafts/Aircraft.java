@@ -1,7 +1,6 @@
-package ua.unit.avaj.simulator.aircrafts;
+package ua.unit.avaj.aircrafts;
 
-import ua.unit.avaj.simulator.WeatherTower;
-import ua.unit.avaj.weather.Coordinates;
+import ua.unit.avaj.WeatherTower;
 
 public class Aircraft implements Flyable {
 
@@ -9,7 +8,7 @@ public class Aircraft implements Flyable {
 	protected String		name;
 	protected Coordinates	coordinates;
 	protected String		type;
-	static private long		idCounter;
+	static private long		idCounter = 0;
 
 	protected Aircraft(String name, Coordinates coordinates) {
 		this.name = name;
@@ -18,7 +17,7 @@ public class Aircraft implements Flyable {
 	}
 
 	private long nextId() {
-
+		return (Aircraft.idCounter + 1);
 	}
 
 	public void updateConditions() {

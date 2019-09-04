@@ -1,4 +1,4 @@
-package ua.unit.avaj.weather;
+package ua.unit.avaj.aircrafts;
 
 public class Coordinates {
 

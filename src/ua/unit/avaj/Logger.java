@@ -1,4 +1,4 @@
-package ua.unit.avaj.simulator;
+package ua.unit.avaj;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Logger {
 
-	static private BufferedWriter   writer;
+	static private BufferedWriter writer;
 
 	Logger() {
 		try {
@@ -28,7 +28,10 @@ public class Logger {
 	}
 
 	public static void closeFile() {
-		writer.close();
+		try {
+			writer.close();
+		} catch (IOException ioe) {
+			System.out.println("ERROR. Couldn't close simulation.txt file :(");
+		}
 	}
-
 }
