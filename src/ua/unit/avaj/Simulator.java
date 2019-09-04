@@ -26,10 +26,11 @@ public class Simulator {
 			BufferedReader reader = new BufferedReader(new FileReader(args[0]));
 			String ln = reader.readLine();
 
+
 				System.out.println("Line: " + ln);	//
 
 			if (ln != null) {
-				tower = new WeatherTower();
+				tower = new WeatherTower(Integer.parseInt(ln));
 
 
 			}
