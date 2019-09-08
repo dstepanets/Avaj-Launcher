@@ -20,10 +20,14 @@ public class Coordinates {
 	public int getLongitude() {
 		return this.longitude;
 	}
-	public int getLatitude() {
-		return this.latitude;
-	}
+	public int getLatitude() { return this.latitude; }
 	public int getHeight() {
 		return this.height;
 	}
+
+	//Not in UML.
+	public String getCoordinates() {
+		return (this.longitude + " " + this.latitude + " " + this.getHeight());
+	}
+
 }

@@ -1,8 +1,6 @@
 package ua.unit.avaj.aircrafts;
 
-import ua.unit.avaj.WeatherTower;
-
-public class Aircraft implements Flyable {
+public class Aircraft {
 
 	protected long			id;
 	protected String		name;
@@ -11,24 +9,19 @@ public class Aircraft implements Flyable {
 	static private long		idCounter = 0;
 
 	protected Aircraft(String name, Coordinates coordinates) {
+		this.id = this.nextId();
 		this.name = name;
 		this.coordinates = coordinates;
 		this.type = "DefaultAircraft";
 	}
 
 	private long nextId() {
-		return (Aircraft.idCounter + 1);
+		return (Aircraft.idCounter++);
 	}
 
-	public void updateConditions() {
-
-	}
-
-	public void registerTower(WeatherTower weatherTower) {
-
-	}
-
+	// Not in UML
 	public String getFullId() {
 		return (this.type + '#' + this.name + '(' + this.id + ')');
 	}
+
 }
