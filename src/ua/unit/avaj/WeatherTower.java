@@ -8,7 +8,10 @@ public class WeatherTower extends Tower {
 	private static int		totalSimulations;
 	private static int		simulationsCount;
 
-	WeatherTower(int totalSims) {
+	WeatherTower(int totalSims) throws NumberFormatException {
+		if (totalSims < 0)
+			throw new NumberFormatException();
+
 		this.totalSimulations = totalSims;
 		this.simulationsCount = 0;
 	}
