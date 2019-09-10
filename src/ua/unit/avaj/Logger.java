@@ -10,8 +10,8 @@ public class Logger {
 
 	Logger() {
 		try {
-			if (this.writer == null)
-				this.writer = new BufferedWriter(new FileWriter("simulation.txt", true));
+			if (writer == null)
+				writer = new BufferedWriter(new FileWriter("simulation.txt", true));
 		} catch (IOException ioe) {
 			System.out.println("ERROR. Couldn't create simulation.txt file :(");
 		}
@@ -29,7 +29,8 @@ public class Logger {
 
 	public static void closeFile() {
 		try {
-			writer.close();
+			if (writer != null)
+				writer.close();
 		} catch (IOException ioe) {
 			System.out.println("ERROR. Couldn't close simulation.txt file :(");
 		}

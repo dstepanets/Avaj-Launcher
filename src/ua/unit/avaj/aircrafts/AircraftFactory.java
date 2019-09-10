@@ -1,8 +1,10 @@
 package ua.unit.avaj.aircrafts;
 
+import ua.unit.avaj.AvajException;
+
 public class AircraftFactory {
 
-	public Flyable newAircraft(String type, String name, int longitude, int latitude, int height) throws Exception {
+	public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height) throws AvajException {
 
 		Coordinates coords = new Coordinates(longitude, latitude, height);
 
@@ -15,6 +17,6 @@ public class AircraftFactory {
 		else if (type.toLowerCase().equals("baloon")) {
 			return new Baloon(name, coords);
 		}
-		else throw new Exception("ERROR. Unknown aircraft type: \'" + type + "\'");
+		else throw new AvajException("ERROR. Unknown aircraft type: \'" + type + "\'");
 	}
 }

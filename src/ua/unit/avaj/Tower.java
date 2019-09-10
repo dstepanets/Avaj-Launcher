@@ -21,8 +21,8 @@ public class Tower {
 	}
 
 	protected void conditionsChanged() {
-		for (Flyable f : observers) {
-			f.updateConditions();
+		for (int i = 0; i < observers.size(); i++) {
+			observers.get(i).updateConditions();
 		}
 	}
 }

@@ -5,8 +5,8 @@ import ua.unit.avaj.aircrafts.Coordinates;
 public class WeatherTower extends Tower {
 
 //	Not in UML. Simulations counters.
-	private static int		totalSimulations;
-	private static int		simulationsCount;
+	private int		totalSimulations;
+	private int		simulationsCount;
 
 	WeatherTower(int totalSims) throws NumberFormatException {
 		if (totalSims < 0)
@@ -16,16 +16,16 @@ public class WeatherTower extends Tower {
 		this.simulationsCount = 0;
 	}
 
-	public int getTotalSims() {	return WeatherTower.totalSimulations; }
-	public int getSimsCount() {	return WeatherTower.simulationsCount; }
-	public void countSimulation() { WeatherTower.simulationsCount++; }
+	public int getTotalSims() {	return this.totalSimulations; }
+	public int getSimsCount() {	return this.simulationsCount; }
+	public void countSimulation() { this.simulationsCount++; }
 
 //	In UML:
 	public String getWeather(Coordinates coordinates) {
 		return  WeatherProvider.getProvider().getCurrentWeather(coordinates);
 	}
 
-	private void changeWeather() {
+	void changeWeather() {
 		this.conditionsChanged();
 	}
 }
