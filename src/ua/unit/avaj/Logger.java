@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class Logger {
 
-	static private BufferedWriter writer;
+	private static  BufferedWriter writer;
 
 	Logger() {
 		try {

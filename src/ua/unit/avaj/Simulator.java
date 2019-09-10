@@ -68,6 +68,7 @@ public class Simulator {
 					AvajException.printInputFileHelp();
 				}
 			}
+			reader.close();
 
 //			Run simulation
 			for (Flyable a : aircrafts) {
@@ -90,8 +91,6 @@ public class Simulator {
 		} catch (IOException e) {
 			System.out.println("ERROR: File reading failed");
 		} finally {
-			System.out.println("[finally in main]: Close files!!!!");
-//			reader.close();
 			Logger.closeFile();
 		}
 	}
