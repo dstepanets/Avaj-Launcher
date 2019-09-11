@@ -11,31 +11,20 @@ import java.util.ArrayList;
 
 public class Simulator {
 
-	private static WeatherTower tower;
-	private static ArrayList<Flyable> aircrafts = new ArrayList<>();
+	private BufferedReader reader;
+	private Logger logger = new Logger();
+	private WeatherTower tower;
+	private ArrayList<Flyable> aircrafts = new ArrayList<>();
 
-	private static BufferedReader reader;
-	private static Logger logger = new Logger();
+	private Simulator() {}
 
-	public Simulator() {}
-
-	public void parseScenario(String filePath) {
-
-		
-
-	}
-
-	public static void main(String[] args) {
+	private void parseScenario(String filePath) {
 
 		try {
 
-			if (args.length != 1) {
-				throw new AvajException("ERROR: Provide a file path as a single argument");
-			}
+			reader = new BufferedReader(new FileReader(filePath));
 
-			reader = new BufferedReader(new FileReader(args[0]));
-
-//			Parse number of simulations
+			//			Parse number of simulations
 			String ln = reader.readLine();
 			if (ln != null) {
 				try {
@@ -44,7 +33,8 @@ public class Simulator {
 					System.out.println("ERROR. Number of simulations (first line of the scenario) must be a positive integer");
 				}
 			}
-//			Parse list of aircrafts
+
+			//			Parse list of aircrafts
 			for (int i = 2; ln != null; i++) {
 
 				ln = reader.readLine();
@@ -78,20 +68,6 @@ public class Simulator {
 			}
 			reader.close();
 
-//			Run simulation
-			for (Flyable a : aircrafts) {
-				a.registerTower(tower);
-			}
-
-			while (tower.getSimsCount() < tower.getTotalSims()) {
-				Logger.logLine("== Simulation #" + (tower.getSimsCount() + 1) + " ==");
-				tower.changeWeather();
-				tower.countSimulation();
-			}
-
-			System.out.println("We have run " + tower.getTotalSims() + " simulations.");
-			System.out.println("Results are logged to simulation.txt file.");
-
 		} catch (AvajException e) {
 			System.out.println(e.getMessage());
 			AvajException.printInputFileHelp();
@@ -99,9 +75,45 @@ public class Simulator {
 			System.out.println("ERROR: I can't find such file, darling :(");
 		} catch (IOException e) {
 			System.out.println("ERROR: File reading failed");
+		}
+	}
+
+	private void runSimulation(Simulator simulator) {
+
+		for (Flyable a : simulator.aircrafts) {
+			a.registerTower(simulator.tower);
+		}
+
+		while (simulator.tower.getSimsCount() < simulator.tower.getTotalSims()) {
+			Logger.logLine("== Simulation #" + (simulator.tower.getSimsCount() + 1) + " ==");
+			simulator.tower.changeWeather();
+			simulator.tower.countSimulation();
+		}
+	}
+
+
+	public static void main (String[]args) {
+
+		try {
+
+			if (args.length != 1) {
+				throw new AvajException("ERROR: Provide a file path as a single argument");
+			}
+
+			Simulator simulator = new Simulator();
+
+			simulator.parseScenario(args[0]);
+			simulator.runSimulation(simulator);
+
+			System.out.println("We have run " + simulator.tower.getTotalSims() + " simulations.");
+			System.out.println("Results are logged to simulation.txt file.");
+
+		} catch (AvajException e) {
+			System.out.println(e.getMessage());
+			AvajException.printInputFileHelp();
 		} finally {
 			Logger.closeFile();
 		}
 	}
-
 }
+
