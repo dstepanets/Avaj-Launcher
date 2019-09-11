@@ -13,9 +13,17 @@ public class Simulator {
 
 	private static WeatherTower tower;
 	private static ArrayList<Flyable> aircrafts = new ArrayList<>();
+
+	private static BufferedReader reader;
 	private static Logger logger = new Logger();
 
 	public Simulator() {}
+
+	public void parseScenario(String filePath) {
+
+		
+
+	}
 
 	public static void main(String[] args) {
 
@@ -25,7 +33,7 @@ public class Simulator {
 				throw new AvajException("ERROR: Provide a file path as a single argument");
 			}
 
-			BufferedReader reader = new BufferedReader(new FileReader(args[0]));
+			reader = new BufferedReader(new FileReader(args[0]));
 
 //			Parse number of simulations
 			String ln = reader.readLine();
@@ -76,6 +84,7 @@ public class Simulator {
 			}
 
 			while (tower.getSimsCount() < tower.getTotalSims()) {
+				Logger.logLine("== Simulation #" + (tower.getSimsCount() + 1) + " ==");
 				tower.changeWeather();
 				tower.countSimulation();
 			}

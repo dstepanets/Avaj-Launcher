@@ -1,4 +1,3 @@
-* Rewrite simulation.txt each run!
 
 
 * MD5?

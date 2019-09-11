@@ -19,7 +19,7 @@ public class Baloon extends Aircraft implements Flyable {
 		HashMap<String, String> reports = new HashMap<>();
 		reports.put("SUN", "Sun is shining so nicely. Great for my marijuana plantation!");
 		reports.put("RAIN", "God blessed watering for my cannabis plantation!");
-		reports.put("FOG", "Dammit! Is my joint making so much smoke?!");
+		reports.put("FOG", "Wow! Is that my joint making so much smoke?!");
 		reports.put("SNOW", "So freezing! But my indoor marijuana crops are safe and well...");
 
 		String weather = this.weatherTower.getWeather(this.coordinates);

@@ -1,17 +1,19 @@
 package ua.unit.avaj;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+
 
 public class Logger {
 
 	private static  BufferedWriter writer;
+	private static 	File simFile;
 
 	Logger() {
 		try {
+			simFile = new File("simulation.txt");
+			simFile.delete();
 			if (writer == null)
-				writer = new BufferedWriter(new FileWriter("simulation.txt", true));
+				writer = new BufferedWriter(new FileWriter(simFile, true));
 		} catch (IOException ioe) {
 			System.out.println("ERROR. Couldn't create simulation.txt file :(");
 		}
