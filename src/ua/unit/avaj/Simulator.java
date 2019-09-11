@@ -18,64 +18,60 @@ public class Simulator {
 
 	private Simulator() {}
 
-	private void parseScenario(String filePath) {
+	private void parseScenario(String filePath) throws AvajException, IOException {
 
-		try {
+		reader = new BufferedReader(new FileReader(filePath));
+		String ln = new String();
+		int lnCount = 0;
 
-			reader = new BufferedReader(new FileReader(filePath));
-
-			//			Parse number of simulations
-			String ln = reader.readLine();
-			if (ln != null) {
+		//			Parse number of simulations
+		while (ln != null) {
+			ln = reader.readLine();
+			lnCount++;
+			if (ln == null)
+				throw new AvajException("ERROR: Simulation file is empty.");
+			if (ln.length() != 0) {
 				try {
+					ln = ln.trim();
 					tower = new WeatherTower(Integer.parseInt(ln));
+					break;
 				} catch (NumberFormatException e) {
-					System.out.println("ERROR. Number of simulations (first line of the scenario) must be a positive integer");
+					throw new AvajException("ERROR. Number of simulations (first line of the scenario) " +
+							"must be a positive integer");
 				}
 			}
-
-			//			Parse list of aircrafts
-			for (int i = 2; ln != null; i++) {
-
-				ln = reader.readLine();
-				if (ln == null || ln.length() == 0)
-					continue;
-
-				String split[] = ln.split(" ");
-				if (split.length == 0)
-					continue;
-				if (split.length != 5)
-					throw new AvajException("ERROR: Invalid line #" + i + " in a scenario file.");
-
-				try {
-					int coords[] = {
-							Integer.parseInt(split[2]),
-							Integer.parseInt(split[3]),
-							Integer.parseInt(split[4])
-					};
-					for (int c : coords) {
-						if (c < 1)
-							throw new AvajException("ERROR: Invalid line #" + i + " in a scenario file.\nCoordinates must be POSITIVE INTEGERS!");
-					}
-
-					aircrafts.add(AircraftFactory.newAircraft(split[0], split[1], coords[0], coords[1], coords[2]));
-
-				} catch (NumberFormatException e) {
-					System.out.println("ERROR: Invalid line #" + i + " in a scenario file.");
-					System.out.println("Coordinates must be POSITIVE INTEGERS!");
-					AvajException.printInputFileHelp();
-				}
-			}
-			reader.close();
-
-		} catch (AvajException e) {
-			System.out.println(e.getMessage());
-			AvajException.printInputFileHelp();
-		} catch (FileNotFoundException e) {
-			System.out.println("ERROR: I can't find such file, darling :(");
-		} catch (IOException e) {
-			System.out.println("ERROR: File reading failed");
 		}
+
+		//			Parse list of aircrafts
+		while (ln != null) {
+
+			ln = reader.readLine();
+			lnCount++;
+			if (ln == null || ln.length() == 0)
+				continue;
+
+			String split[] = ln.split(" ");
+			if (split.length == 0)
+				continue;
+			if (split.length != 5)
+				throw new AvajException("ERROR: Invalid line #" + lnCount + " in a scenario file.");
+
+			try {
+				int coords[] = { Integer.parseInt(split[2]), Integer.parseInt(split[3]), Integer.parseInt(split[4]) };
+				for (int c : coords) {
+					if (c < 1)
+						throw new AvajException("ERROR: Invalid line #" + lnCount + " in a scenario file." +
+												"\nCoordinates must be POSITIVE INTEGERS!");
+				}
+
+				aircrafts.add(AircraftFactory.newAircraft(split[0], split[1], coords[0], coords[1], coords[2]));
+
+			} catch (NumberFormatException e) {
+				throw new AvajException("ERROR: Invalid line #" + lnCount + " in a scenario file." +
+						"\nCoordinates must be POSITIVE INTEGERS!");
+			}
+		}
+		reader.close();
 	}
 
 	private void runSimulation(Simulator simulator) {
@@ -103,6 +99,9 @@ public class Simulator {
 			Simulator simulator = new Simulator();
 
 			simulator.parseScenario(args[0]);
+			if (simulator.aircrafts.size() == 0)
+				throw new AvajException("ERROR: No aircrafts in the scenario file.");
+
 			simulator.runSimulation(simulator);
 
 			System.out.println("We have run " + simulator.tower.getTotalSims() + " simulations.");
@@ -111,6 +110,10 @@ public class Simulator {
 		} catch (AvajException e) {
 			System.out.println(e.getMessage());
 			AvajException.printInputFileHelp();
+		} catch (FileNotFoundException e) {
+			System.out.println("ERROR: I can't find such file, darling :(");
+		} catch (IOException e) {
+			System.out.println("ERROR: File reading failed");
 		} finally {
 			Logger.closeFile();
 		}

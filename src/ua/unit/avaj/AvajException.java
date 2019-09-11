@@ -17,7 +17,7 @@ public class AvajException extends Exception{
 		System.out.println("\t<String> <String> <PositiveInt> <PositiveInt> <PositiveInt>");
 		System.out.println("\t(Type) (Name) (Longitude) (Latitude) (Height)");
 		System.out.println("For example:\n\t5\n\tJetPlane J1 23 44 32\n\tHelicopter H1 654 33 20");
-		System.out.println("* 3 types of aircraft are available: Helicopter, JetPlane, Baloon.");
+		System.out.println("\n* 3 types of aircraft are available: Helicopter, JetPlane, Baloon.");
 		System.out.println("* Empty lines are ignored.");
 		System.out.println("===================================================================");
 
