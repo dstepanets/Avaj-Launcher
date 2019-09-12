@@ -2,6 +2,7 @@ package ua.unit.avaj;
 
 import ua.unit.avaj.aircrafts.AircraftFactory;
 import ua.unit.avaj.aircrafts.Flyable;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -79,7 +80,7 @@ public class Simulator {
 		}
 
 		while (simulator.tower.getSimsCount() < simulator.tower.getTotalSims()) {
-			Logger.logLine("== Simulation #" + (simulator.tower.getSimsCount() + 1) + " ==");
+			Logger.logLine("\t== Simulation #" + (simulator.tower.getSimsCount() + 1) + " ==");
 			simulator.tower.changeWeather();
 			simulator.tower.countSimulation();
 		}

@@ -1,6 +1,7 @@
 package ua.unit.avaj;
 
 import ua.unit.avaj.aircrafts.Flyable;
+
 import java.util.List;
 import java.util.ArrayList;
 
