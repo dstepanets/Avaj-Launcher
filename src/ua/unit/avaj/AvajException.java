@@ -2,8 +2,6 @@ package ua.unit.avaj;
 
 public class AvajException extends Exception{
 
-	public AvajException() {}
-
 	public AvajException(String msg) {
 		super(msg);
 	}

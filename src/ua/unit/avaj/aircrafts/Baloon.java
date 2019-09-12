@@ -2,7 +2,6 @@ package ua.unit.avaj.aircrafts;
 
 import ua.unit.avaj.Logger;
 import ua.unit.avaj.WeatherTower;
-
 import java.util.HashMap;
 
 public class Baloon extends Aircraft implements Flyable {

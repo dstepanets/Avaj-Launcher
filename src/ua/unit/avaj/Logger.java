@@ -2,7 +2,6 @@ package ua.unit.avaj;
 
 import java.io.*;
 
-
 public class Logger {
 
 	private static  BufferedWriter writer;

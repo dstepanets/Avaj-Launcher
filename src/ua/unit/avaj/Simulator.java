@@ -2,11 +2,9 @@ package ua.unit.avaj;
 
 import ua.unit.avaj.aircrafts.AircraftFactory;
 import ua.unit.avaj.aircrafts.Flyable;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class Simulator {

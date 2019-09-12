@@ -1,7 +1,6 @@
 package ua.unit.avaj;
 
 import ua.unit.avaj.aircrafts.Coordinates;
-
 import java.util.Random;
 
 public class WeatherProvider {
