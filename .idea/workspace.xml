@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731f31f-580e-459d-a058-d2966f06353f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/avaJ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/avaJ.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/TODOS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/AvajException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/AvajException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/Tower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/WeatherProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/WeatherProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/WeatherTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/WeatherTower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Baloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Baloon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Flyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Helicopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +19,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="1476">
               <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="207" />
     <option name="y" value="23" />
     <option name="width" value="1460" />
@@ -105,12 +92,6 @@
               <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,12 +167,13 @@
       <workItem from="1568122691463" duration="11381000" />
       <workItem from="1568199976698" duration="11226000" />
       <workItem from="1568283071522" duration="5683000" />
-      <workItem from="1568290185278" duration="2225000" />
+      <workItem from="1568290185278" duration="2298000" />
+      <workItem from="1568306828472" duration="519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30912000" />
+    <option name="totallyTimeSpent" value="31504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,10 +185,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="23" width="1460" height="1417" extended-state="1" />
-    <editor active="true" />
+    <frame x="207" y="23" width="1460" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19534555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19816643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,8 +195,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32981133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,20 +245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="382" column="9" lean-forward="true" selection-start-line="382" selection-start-column="9" selection-end-line="382" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scenario.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scenario.txt" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/FileNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -388,12 +356,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3007" />
+        <state relative-caret-position="-2899" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="1476">
           <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
