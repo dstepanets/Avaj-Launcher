@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731f31f-580e-459d-a058-d2966f06353f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/avaJ.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mygit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mygit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/simulation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/AvajException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/AvajException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_scenarios/scenario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scenario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_scenarios/test1.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,27 +25,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+            <state relative-caret-position="1926">
+              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/AircraftFactory.java">
+        <entry file="file://$PROJECT_DIR$/simulation.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_scenarios/scenario.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="9" />
-            </state>
+            <state relative-caret-position="-1" />
           </provider>
         </entry>
       </file>
@@ -75,16 +69,16 @@
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/Tower.java" />
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Aircraft.java" />
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Baloon.java" />
-        <option value="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" />
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/Logger.java" />
         <option value="$PROJECT_DIR$/simulation.txt" />
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/AvajException.java" />
+        <option value="$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java" />
         <option value="$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
+    <option name="x" value="286" />
     <option name="y" value="23" />
     <option name="width" value="1460" />
     <option name="height" value="1417" />
@@ -94,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,34 +96,10 @@
               <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygit" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="avaj" type="462c0819:PsiDirectoryNode" />
-              <item name="aircrafts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="avaJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="test_scenarios" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -153,6 +124,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,16 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="avaJ" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_211" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ua.unit.avaj.Simulator" />
-      <module name="mygit" />
-      <option name="PROGRAM_PARAMETERS" value="test_scenarios/test1.txt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,11 +168,12 @@
       <workItem from="1568122269360" duration="397000" />
       <workItem from="1568122691463" duration="11381000" />
       <workItem from="1568199976698" duration="11226000" />
+      <workItem from="1568283071522" duration="3876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23004000" />
+    <option name="totallyTimeSpent" value="26880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,10 +185,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="23" width="1460" height="1417" extended-state="0" />
+    <frame x="286" y="23" width="1460" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20733428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19252469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,7 +197,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32981133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,24 +292,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/Helicopter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1062">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -352,16 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulation.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_scenarios/scenario.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/AircraftFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -369,10 +313,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="382" column="9" lean-forward="true" selection-start-line="382" selection-start-column="9" selection-end-line="382" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenario.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/aircrafts/JetPlane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="91" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/unit/avaj/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+        <state relative-caret-position="1926">
+          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -21,16 +21,16 @@ public class Simulator {
 	private void parseScenario(String filePath) throws AvajException, IOException {
 
 		reader = new BufferedReader(new FileReader(filePath));
-		String ln = new String();
+		String ln;
 		int lnCount = 0;
 
-		//			Parse number of simulations
-		while (ln != null) {
+//		Parse number of simulations
+		do {
 			ln = reader.readLine();
 			lnCount++;
 			if (ln == null)
 				throw new AvajException("ERROR: Simulation file is empty.");
-			if (ln.length() != 0) {
+			if (ln.length() > 0) {
 				try {
 					ln = ln.trim();
 					tower = new WeatherTower(Integer.parseInt(ln));
@@ -40,9 +40,9 @@ public class Simulator {
 							"must be a positive integer");
 				}
 			}
-		}
+		} while (ln != null);
 
-		//			Parse list of aircrafts
+//		Parse list of aircrafts
 		while (ln != null) {
 
 			ln = reader.readLine();
@@ -68,7 +68,7 @@ public class Simulator {
 
 			} catch (NumberFormatException e) {
 				throw new AvajException("ERROR: Invalid line #" + lnCount + " in a scenario file." +
-						"\nCoordinates must be POSITIVE INTEGERS!");
+						"\nCoordinates must be 3 positive, space-separated integers.");
 			}
 		}
 		reader.close();
@@ -93,7 +93,7 @@ public class Simulator {
 		try {
 
 			if (args.length != 1) {
-				throw new AvajException("ERROR: Provide a file path as a single argument");
+				throw new AvajException("ERROR: Provide a file path as a single argument.");
 			}
 
 			Simulator simulator = new Simulator();
@@ -110,10 +110,8 @@ public class Simulator {
 		} catch (AvajException e) {
 			System.out.println(e.getMessage());
 			AvajException.printInputFileHelp();
-		} catch (FileNotFoundException e) {
-			System.out.println("ERROR: I can't find such file, darling :(");
 		} catch (IOException e) {
-			System.out.println("ERROR: File reading failed");
+			System.out.println("ERROR: I can't find or read the file \'" + args[0] + "\', darling.");
 		} finally {
 			Logger.closeFile();
 		}

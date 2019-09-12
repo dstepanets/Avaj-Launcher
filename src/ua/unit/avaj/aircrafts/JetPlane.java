@@ -18,7 +18,7 @@ public class JetPlane extends Aircraft implements Flyable {
 
 		HashMap<String, String> reports = new HashMap<>();
 		reports.put("SUN", "Jesus! My ice cream is melting!");
-		reports.put("RAIN", "F**KING S**T! My popcorn got damped!");
+		reports.put("RAIN", "F**KING S**T! My popcorn got wet!");
 		reports.put("FOG", "Can't see a damn thing in this fog. Good time for a coffee break!");
 		reports.put("SNOW", "Goddammit! Pizza is cold. Tower, I'm going back for a new one.");
 

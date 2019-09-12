@@ -1,0 +1,274 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Baloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Baloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+== Simulation #1 ==
+Baloon#B1(1): Sun is shining so nicely. Great for my marijuana plantation!
+Baloon#B2(2): Wow! Is that my joint making so much smoke?!
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H1(4): * Riders on the storm. Riders on the storm * 
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #2 ==
+Baloon#B1(1): Wow! Is that my joint making so much smoke?!
+Baloon#B2(2): So freezing! But my indoor marijuana crops are safe and well...
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H1(4): * Let it snow, let it snow, let it snow *
+Helicopter#H2(5): * Let it snow, let it snow, let it snow *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Baloon#B3(7): God blessed watering for my cannabis plantation!
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+== Simulation #3 ==
+Baloon#B1(1): Wow! Is that my joint making so much smoke?!
+Baloon#B2(2): God blessed watering for my cannabis plantation!
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H1(4): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * It's a beautiful day. The sun is shining. I feel good... *
+== Simulation #4 ==
+Baloon#B1(1): Sun is shining so nicely. Great for my marijuana plantation!
+Baloon#B2(2): Wow! Is that my joint making so much smoke?!
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H1(4): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H2(5): * Let it snow, let it snow, let it snow *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * It's a beautiful day. The sun is shining. I feel good... *
+== Simulation #5 ==
+Baloon#B1(1): God blessed watering for my cannabis plantation!
+Baloon#B2(2): Sun is shining so nicely. Great for my marijuana plantation!
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H1(4): * Riders on the storm. Riders on the storm * 
+Helicopter#H2(5): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * It's a beautiful day. The sun is shining. I feel good... *
+== Simulation #6 ==
+Baloon#B1(1): God blessed watering for my cannabis plantation!
+Baloon#B2(2): So freezing! But my indoor marijuana crops are safe and well...
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H1(4): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Riders on the storm. Riders on the storm * 
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #7 ==
+Baloon#B1(1): God blessed watering for my cannabis plantation!
+Baloon#B2(2): Sun is shining so nicely. Great for my marijuana plantation!
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H1(4): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #8 ==
+Baloon#B1(1): Sun is shining so nicely. Great for my marijuana plantation!
+Baloon#B2(2): Wow! Is that my joint making so much smoke?!
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H1(4): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+Baloon#B3(7): Sun is shining so nicely. Great for my marijuana plantation!
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #9 ==
+Baloon#B1(1): Sun is shining so nicely. Great for my marijuana plantation!
+Baloon#B2(2): So freezing! But my indoor marijuana crops are safe and well...
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H1(4): * Let it snow, let it snow, let it snow *
+Helicopter#H1(4): Landing... Coordinates: 687 33 0
+Tower says: Helicopter#H1(4) unregistered from weather tower.
+Helicopter#H3(6): * Riders on the storm. Riders on the storm * 
+Baloon#B3(7): Sun is shining so nicely. Great for my marijuana plantation!
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+== Simulation #10 ==
+Baloon#B1(1): Wow! Is that my joint making so much smoke?!
+Baloon#B2(2): Sun is shining so nicely. Great for my marijuana plantation!
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #11 ==
+Baloon#B1(1): Sun is shining so nicely. Great for my marijuana plantation!
+Baloon#B2(2): God blessed watering for my cannabis plantation!
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H2(5): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Baloon#B3(7): Wow! Is that my joint making so much smoke?!
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * It's a beautiful day. The sun is shining. I feel good... *
+== Simulation #12 ==
+Baloon#B1(1): So freezing! But my indoor marijuana crops are safe and well...
+Baloon#B2(2): So freezing! But my indoor marijuana crops are safe and well...
+Baloon#B2(2): Landing... Coordinates: 7 8 0
+Tower says: Baloon#B2(2) unregistered from weather tower.
+Helicopter#H2(5): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+Baloon#B3(7): So freezing! But my indoor marijuana crops are safe and well...
+Baloon#B3(7): Landing... Coordinates: 106 22 0
+Tower says: Baloon#B3(7) unregistered from weather tower.
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+== Simulation #13 ==
+Baloon#B1(1): God blessed watering for my cannabis plantation!
+Baloon#B1(1): Landing... Coordinates: 12 3 0
+Tower says: Baloon#B1(1) unregistered from weather tower.
+Helicopter#H2(5): * Let it snow, let it snow, let it snow *
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #14 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #15 ==
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #16 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #17 ==
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Riders on the storm. Riders on the storm * 
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+Helicopter#H4(9): * It's a beautiful day. The sun is shining. I feel good... *
+== Simulation #18 ==
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * Riders on the storm. Riders on the storm * 
+== Simulation #19 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #20 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Riders on the storm. Riders on the storm * 
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+== Simulation #21 ==
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H2(5): * It's a beautiful day. The sun is shining. I feel good... *
+Helicopter#H3(6): * Riders on the storm. Riders on the storm * 
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+== Simulation #22 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H2(5): * Let it snow, let it snow, let it snow *
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Jesus! My ice cream is melting!
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+== Simulation #23 ==
+JetPlane#J1(3): Jesus! My ice cream is melting!
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H4(9): * Let it snow, let it snow, let it snow *
+Helicopter#H4(9): Landing... Coordinates: 309 23 0
+Tower says: Helicopter#H4(9) unregistered from weather tower.
+== Simulation #24 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): Jesus! My ice cream is melting!
+== Simulation #25 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H2(5): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #26 ==
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H2(5): * Riders on the storm. Riders on the storm * 
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #27 ==
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H2(5): * Let it snow, let it snow, let it snow *
+Helicopter#H2(5): Landing... Coordinates: 115 33 0
+Tower says: Helicopter#H2(5) unregistered from weather tower.
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #28 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+== Simulation #29 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #30 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #31 ==
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #32 ==
+JetPlane#J1(3): Can't see a damn thing in this fog. Good time for a coffee break!
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #33 ==
+JetPlane#J1(3): F**KING S**T! My popcorn got wet!
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #34 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #35 ==
+JetPlane#J1(3): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+JetPlane#J1(3): Landing... Coordinates: 23 170 0
+Tower says: JetPlane#J1(3) unregistered from weather tower.
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #36 ==
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #37 ==
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): F**KING S**T! My popcorn got wet!
+== Simulation #38 ==
+Helicopter#H3(6): * Smoke on the water, fire in the sky. Ta-ta-ta, ta-ta-ta-da! *
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+== Simulation #39 ==
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #40 ==
+Helicopter#H3(6): * Let it snow, let it snow, let it snow *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
+== Simulation #41 ==
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Can't see a damn thing in this fog. Good time for a coffee break!
+== Simulation #42 ==
+Helicopter#H3(6): * It's a beautiful day. The sun is shining. I feel good... *
+JetPlane#J2(8): Goddammit! Pizza is cold. Tower, I'm going back for a new one.
