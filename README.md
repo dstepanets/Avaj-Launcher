@@ -14,7 +14,7 @@ This project is intended to teach a student:
 - error management
 - and more
 
-The program takes a scenario file. It lists aircrafts and their started coordinates. First line - the number of simulation runs. Each run, the Weather Tower provides updated weather conditions for each aircraft and its coordinates. And aircrafts react with changing coordinates by specified step and logging a message to the simulation file, and a message corresponds to the weather. If the height of an aircraft reaches 0, it lands and unregister from Tower, thus stopping its participation.
+The program takes a scenario file. It lists aircrafts and their started coordinates. First line - the number of simulation runs. Each run, the Weather Tower provides updated weather conditions for each aircraft and its coordinates. And aircrafts react with changing coordinates by specified step and logging a message to the simulation file, and a message corresponds to the weather. If the height of an aircraft reaches 0, it lands and unregisters from the Tower, thus stopping its participation.
 
 *This is the first project of the Java branch at School 42.*
 
