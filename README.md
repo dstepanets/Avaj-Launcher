@@ -14,7 +14,15 @@ This project is intended to teach a student:
 - error management
 - and more
 
-The program takes a scenario file. And generates a simulation log.
+The program takes a scenario file. It lists aircrafts and their started coordinates. First line - the number of simulation runs. Each run, the Weather Tower provides updated weather conditions for each aircraft and its coordinates. And aircrafts react with changing coordinates by specified step and logging a message to the simulation file, and a message corresponds to the weather. If the height of an aircraft reaches 0, it lands and unregister from Tower, thus stopping its participation.
+
+*This is the first project of the Java branch at School 42.*
+
+**Detailed description of the task: [avaj-launcher.en.pdf](https://github.com/dstepanets/Avaj-Launcher/blob/master/doc/avaj-launcher.en.pdf)**
+
+## Usage
+
+Compile and run the program with the script **RUN.sh**. A program takes path to a scenario file as a single parameter. By default, it looks for *scenario.txt* in the *src* dir. 
 
 ```
 SCENARIO INPUT FILE FORMAT:
@@ -32,12 +40,16 @@ B) All following lines - list of participating aircrafts in format:
 For example:
 
 ```
-
+25
+Baloon B1 2 3 20
+Baloon B2 1 8 66
+JetPlane J1 23 44 32
+Helicopter H1 654 33 20
+Helicopter H2 22 33 44
+Helicopter H3 98 68 99
+Baloon B3 102 22 34
+JetPlane J2 11 99 768
+Helicopter H4 223 23 54
 ```
 
-
-
-*This is the first project of the Java branch at School 42.*
-
-**Detailed description of the task: [avaj-launcher.en.pdf](https://github.com/dstepanets/Avaj-Launcher/blob/master/doc/avaj-launcher.en.pdf)**
-
+From this input the program generated this simulation log file: [simulation.txt](https://github.com/dstepanets/Avaj-Launcher/blob/master/src/simulation.txt).
