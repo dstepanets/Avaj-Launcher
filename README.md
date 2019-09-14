@@ -1,6 +1,6 @@
 # Avaj-Launcher
 
-Simple aircraft logistics simulation. Based on the provided UML class diagram.
+Simple aircraft logistics simulation program. Based on the provided UML class diagram.
 
 ![](doc/avaj_uml.jpg)
 
