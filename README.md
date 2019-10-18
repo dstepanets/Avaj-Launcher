@@ -14,7 +14,7 @@ This project is intended to teach a student:
 - error management
 - and more
 
-The program takes a scenario file. It lists aircrafts and their started coordinates. First line - the number of simulation runs. Each run, the Weather Tower provides updated weather conditions for each aircraft and its coordinates. And aircrafts react with changing coordinates by specified step and logging a message to the simulation file, and a message corresponds to the weather. If the height of an aircraft reaches 0, it lands and unregisters from the Tower, thus stopping its participation.
+The program takes a scenario file. It lists aircraft and their started coordinates. The first line is the number of simulation runs. Each run, the Weather Tower provides updated weather conditions for every aircraft and its coordinates. And aircraft react with changing coordinates by specified step and logging a message to the simulation file, the message corresponds to the weather. If the height of an aircraft reaches 0, it lands and unregisters from the Tower, thus stopping its participation.
 
 *This is the first project of the Java branch at School 42.*
 
@@ -22,16 +22,16 @@ The program takes a scenario file. It lists aircrafts and their started coordina
 
 ## Usage
 
-Compile and run the program with the script **RUN.sh**. A program takes path to a scenario file as a single parameter. By default, it looks for *scenario.txt* in the *src* dir. 
+Compile and run the program with the script **RUN.sh**. A program takes a path to a scenario file as a single parameter. By default, it looks for *scenario.txt* in the *src* dir. 
 
 ```
 SCENARIO INPUT FILE FORMAT:
 A) First line:
-	<PositiveInt>
-	(NumberOfSimulationsToRun)
+    <PositiveInt>
+    (NumberOfSimulationsToRun)
 B) All following lines - list of participating aircrafts in format:
-	<String> <String> <PositiveInt> <PositiveInt> <PositiveInt>
-	(Type) (Name) (Longitude) (Latitude) (Height)
+    <String> <String> <PositiveInt> <PositiveInt> <PositiveInt>
+    (Type) (Name) (Longitude) (Latitude) (Height)
   
 * 3 types of aircraft are available: Helicopter, JetPlane, Baloon.
 * Empty lines are ignored.
@@ -52,4 +52,4 @@ JetPlane J2 11 99 768
 Helicopter H4 223 23 54
 ```
 
-From this input the program generated this simulation log file: [simulation.txt](https://github.com/dstepanets/Avaj-Launcher/blob/master/src/simulation.txt).
+From this input, the program generated this simulation log file: [simulation.txt](https://github.com/dstepanets/Avaj-Launcher/blob/master/src/simulation.txt).
